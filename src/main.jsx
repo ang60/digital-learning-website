@@ -3,7 +3,8 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
 import App from './App.jsx';
-import OurProjects from './OurProjects.jsx';
+import DigitalLearningShowcase from './projects/projects.jsx';
+
 
 
 createRoot(document.getElementById('root')).render(
@@ -11,7 +12,8 @@ createRoot(document.getElementById('root')).render(
     <Router>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/projects" element={<OurProjects />} />
+        <Route path="/projects" element={<DigitalLearningShowcase />} />
+        
       </Routes>
     </Router>
   </StrictMode>

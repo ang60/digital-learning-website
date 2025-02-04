@@ -90,6 +90,15 @@ const NavBar = () => {
               ))}
             </div>
 
+  <div>
+  <a
+                   
+                    href={'projects'}
+                    className="nav-hover-btn"
+                  >
+                  Projects
+                  </a>
+  </div>
             <button
               onClick={toggleAudioIndicator}
               className="ml-10 flex items-center space-x-0.5"

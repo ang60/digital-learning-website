@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Elearning from "./components/Elearning";
 import Minibout from "./components/Minibout";
+// import mastercard from "./components/mastercard";
 
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
       {/* <Contact /> */}
      
       <Footer />
+      {/* <mastercard /> */}
+      
+      
     </main>
   );
 }

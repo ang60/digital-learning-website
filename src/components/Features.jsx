@@ -216,4 +216,105 @@ const Features = () => (
   </section>
 );
 
+
+
+
+
+  <><div className="text-[#F77F00] font-bold text-6xl mb-10">OUR PROJECTS</div>
+    <div className="grid h-[100vh] w-full grid-cols-2 grid-rows-2 gap-7">
+  <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1">
+    <BentoCard
+      src="img/AGRA.jpeg"
+      title={<> A <b>GR</b>A </>}
+      description="Alliance for a Green Resolution in Africa."
+      isImage={true} />
+  </BentoTilt>
+
+  <BentoTilt className="bento-tilt_1 md:col-span-1">
+    <BentoCard
+      src="img/barclays.webp"
+      title={<> G<b>I</b> Z </>}
+      // description="Banking means Barclays."
+      isImage={true} />
+  </BentoTilt>
+
+  <BentoTilt className="bento-tilt_2">
+    <BentoCard
+      src="img/kidscancode.webp"
+      title={<> Kids <b>can</b>code </>}
+      // description="Learn how we integrate AI into creative projects."
+      isImage={true} />
+  </BentoTilt>
+
+  <BentoTilt className="bento-tilt_2">
+    <BentoCard
+      src="img/blended.avif"
+      title={<> FI <b>I</b>PS </>}
+      // description="Learn how we integrate AI into creative projects."
+      isImage={true} />
+  </BentoTilt>
+
+  <BentoTilt className="bento-tilt_2">
+    <BentoCard
+      src="img/blended.avif"
+      title={<> Ready <b>To</b>Work </>}
+      // description="Learn how we integrate AI into creative projects."
+      isImage={true} />
+  </BentoTilt>
+
+  <BentoTilt className="bento-tilt_2">
+    <BentoCard
+      src="img/blendedlearning.jpg"
+      title={<> Mobile <b>Lear</b>ning </>}
+      // description="Learn how we integrate AI into creative projects."
+      isImage={true} />
+  </BentoTilt>
+
+
+  <BentoTilt className="bento-tilt_2">
+    <BentoCard
+      src="img/blended.avif"
+      title={<> Content <b>dev</b>lopment </>}
+      // description="Learn how we integrate AI into creative projects."
+      isImage={true} />
+  </BentoTilt>
+
+
+  <BentoTilt className="bento-tilt_2">
+    <BentoCard
+      src="img/mastercard.png"
+      title={<> Master <b>card</b>Foundation </>}
+      // description="Learn how we integrate AI into creative projects."
+      isImage={true} />
+  </BentoTilt>
+
+  <BentoTilt className="bento-tilt_2">
+    <BentoCard
+      src="img/UNHCR.png"
+      title={<> UNH <b>C</b>R </>}
+      // description="Learn how we integrate AI into creative projects."
+      isImage={true} />
+  </BentoTilt>
+
+  <BentoTilt className="bento-tilt_2">
+    <BentoCard
+      src="img/IJM.jpeg"
+      title={<> I <b>J</b>M </>}
+      // description="Learn how we integrate AI into creative projects."
+      isImage={true} />
+  </BentoTilt>
+
+
+  <BentoTilt className="bento-tilt_2">
+    <div className="flex size-full flex-col justify-between bg-green-400 p-5">
+      <h1 className="bento-title special-font max-w-64 text-black">
+        More <b>Pro</b>jects Coming <b>So</b>on.
+      </h1>
+      <TiLocationArrow className="m-5 scale-[5] self-end" />
+    </div>
+  </BentoTilt>
+</div></>
+
+
+
 export default Features;
