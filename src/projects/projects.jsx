@@ -3,6 +3,7 @@ import { Github, Globe, Gamepad2, Code2, Search, ExternalLink } from "lucide-rea
 import { motion, AnimatePresence } from "framer-motion"
 import { Link } from "react-router-dom"
 import { BentoGridThirdDemo } from "./grid"
+import Footer from "../components/Footer"
 
 const projects = [
   {
@@ -169,52 +170,7 @@ export default function DigitalLearningShowcase() {
         </div>
       </main>
 
-      <footer className="bg-black text-white">
-        <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* <div>
-              <h3 className="text-2xl font-bold mb-4">Digital Learning</h3>
-              <p className="text-blue-200">Advancing education through cutting-edge technology.</p>
-            </div> */}
-            <div>
-              {/* <h4 className="text-lg font-semibold mb-4">Quick Links</h4> */}
-              <ul className="space-y-2">
-                {/* <li>
-                  <Link href="#" className="text-blue-200 hover:text-white transition-colors duration-200">
-                    About Us
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-blue-200 hover:text-white transition-colors duration-200">
-                    Our Projects
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-blue-200 hover:text-white transition-colors duration-200">
-                    Research
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-blue-200 hover:text-white transition-colors duration-200">
-                    Contact
-                  </Link>
-                </li> */}
-              </ul>
-            </div>
-            <div>
-              {/* <h4 className="text-lg font-semibold mb-4">Connect With Us</h4> */}
-              <div className="flex space-x-4">
-                <Link href="#" className="text-blue-200 hover:text-white transition-colors duration-200">
-                  <Github className="h-6 w-6" />
-                </Link>
-                <Link href="#" className="text-blue-200 hover:text-white transition-colors duration-200">
-                  <Globe className="h-6 w-6" />
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+  <Footer/>
     </div>
   )
 }
