@@ -212,7 +212,31 @@ const Features = () => (
           />
         </BentoTilt>
       </div>
+     
+        <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
+          <BentoCard
+            
+            title={
+              <>
+                MERN STACK<b></b>MASTERCLASS
+              </>
+            }
+            description="Creating stunning, AI-powered animations that redefine creativity and storytelling."
+            isComingSoon
+          />
+        </BentoTilt>
+       
     </div>
+    <BentoTilt className="bento-tilt_2">
+          <video
+            src="/videos/hero.mp4"
+            loop
+            muted
+            autoPlay
+            className="size-full object-cover mt-5 object-center"
+          />
+          
+        </BentoTilt>
   </section>
 );
 

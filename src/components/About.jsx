@@ -39,7 +39,6 @@ const About = () => {
         /> */}
 
         <div className="about-subtext">
-          <p>The Game of Games begins—your life, now an epic MMORPG</p>
           <p className="text-gray-500">
           The Digital Learning Unit is engaged with Government, industry and other funding agencies
           </p>

@@ -12,7 +12,7 @@ import Minibout from "./components/Minibout";
 
 function App() {
   return (
-    <main className="relative min-h-screen w-screen overflow-x-hidden">
+    <main className="relative min-h-screen w-screen bg-gray-900 overflow-x-hidden">
       <NavBar />
       <Hero />
       <Minibout />
